@@ -89,7 +89,15 @@
 
           <label><input type="checkbox" id="subscribe" name="subscribe"> Subscribe to updates</label>
 
-          <!-- more fields go here -->
+          <label for="callback-date">Preferred callback date</label>
+          <input type="date" id="callback-date" name="callback-date">
+
+          <label for="urgency">Urgency (1 = whenever, 10 = right now)</label>
+          <input type="range" id="urgency" name="urgency" min="1" max="10" value="5">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required minlength="10"></textarea>
+
           <button type="submit">Send</button>
         </fieldset>
       </form>
