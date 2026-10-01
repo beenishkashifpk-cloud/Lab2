@@ -51,12 +51,6 @@ lab2-semantic-page/
 └── intro.webm      # Video clip (WebM)
 ```
 
-## How to Run
-
-1. Clone or download this repository.
-2. Open the folder in VS Code.
-3. Right-click `index.html` and choose **Open with Live Server**
-   (or simply open `index.html` in a browser).
 
 ## Technologies
 
