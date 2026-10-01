@@ -62,8 +62,38 @@
         <source src="intro.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+      <p><strong>Transcript summary:</strong> A 30-second introduction where I talk about why I'm taking this course.</p>
     </section>
-    <section id="contact"></section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <fieldset>
+          <legend>Send me a message</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="general">General</option>
+            <option value="feedback">Feedback</option>
+            <option value="bug">Report a Bug</option>
+          </select>
+
+          <p>Preferred reply method:</p>
+          <label><input type="radio" name="reply" value="email" checked> Email</label>
+          <label><input type="radio" name="reply" value="phone"> Phone</label>
+
+          <label><input type="checkbox" id="subscribe" name="subscribe"> Subscribe to updates</label>
+
+          <!-- more fields go here -->
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
   </main>
 
   <footer></footer>
